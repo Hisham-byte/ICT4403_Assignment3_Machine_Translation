@@ -1,0 +1,30 @@
+# Foundations of Generative AI (ICT4403) - Assignment 3
+# Neural Machine Translation Dependencies
+
+# Core Deep Learning Framework
+torch>=2.4.0
+torchvision>=0.19.0
+accelerate>=0.30.0
+
+# Hugging Face NLP Ecosystem
+transformers>=4.45.0
+datasets>=3.0.0
+tokenizers>=0.20.0
+sentencepiece>=0.2.0
+protobuf>=3.20.0
+
+# Evaluation & Metrics
+sacrebleu>=2.4.0
+evaluate>=0.4.0
+nltk>=3.8.0
+
+# Data Science & Plotting
+numpy>=1.26.0
+pandas>=2.2.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+tabulate>=0.9.0
+tqdm>=4.66.0
+
+# Documentation & Export
+python-docx>=1.1.0

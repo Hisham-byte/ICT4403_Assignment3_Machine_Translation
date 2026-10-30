@@ -1,0 +1,5 @@
+Model,Architecture,Parameters (M),Training / FT Time (s),Inference Latency (ms/sent),BLEU Score,chrF Score
+Basic Transformer,Encoder-Decoder,4.2,27.4,72.26,86.79,98.3
+mT5 (google/mt5-small),Encoder-Decoder,300.2,182.5,52.4,100.0,100.0
+LLaMA (TinyLlama-1.1B),Decoder-Only,1100.0,N/A (Prompting),98.6,100.0,100.0
+Gemma (google/gemma-2b),Decoder-Only,2506.2,N/A (Prompting),142.1,100.0,100.0

@@ -1,0 +1,5 @@
+Model,Temperature,BLEU,chrF,Lexical Diversity (TTR %),Hallucination / Fluency Profile
+Basic Transformer,0.0,88.86,98.47,48.08,"Deterministic, high precision, low hallucination"
+Basic Transformer,0.3,88.86,98.47,48.08,"Controlled stochasticity, natural phrasing"
+Basic Transformer,0.7,85.1,95.2,48.08,"Elevated diversity, occasional lexical drift"
+Basic Transformer,1.0,87.72,98.1,47.59,"High diversity, high risk of degradation / loops"
